@@ -16,4 +16,3 @@ def classify(type, price):
   else:
     raise Exception("Loai hang hoa khong hop le")
 
-print(classify("Loai khac", 5000))
