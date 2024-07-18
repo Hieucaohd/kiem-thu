@@ -2,6 +2,8 @@ def Grade(score: int) -> str:
     res: int
     if score < 0 or score > 10:
         return 'I'
+    if score >= 9:
+        res = 'A'
     else:
         if score >= 8:
             res = 'B'
